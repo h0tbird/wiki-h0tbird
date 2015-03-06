@@ -1,4 +1,4 @@
-# Links to cool stuff
+# Links to stuff I am interested in
 
 
 ## Mesos
@@ -9,11 +9,11 @@
 ## Docker
 
 - [Four ways to connect a docker container to a local network](http://blog.oddbit.com/2014/08/11/four-ways-to-connect-a-docker/)
-- [CentOS7 kickstart for official public Docker image](https://github.com/CentOS/sig-cloud-instance-build/blob/master/docker/centos-7.ks)
+- [CentOS 7 kickstart for the official public Docker image](https://github.com/CentOS/sig-cloud-instance-build/blob/master/docker/centos-7.ks)
 
 ## CoreOS
 
-- [sdnotify-proxy systemd unit sample](https://github.com/coreos/coreos-overlay/blob/master/app-admin/flannel/files/flanneld.service)
+- [Sdnotify-proxy systemd unit sample](https://github.com/coreos/coreos-overlay/blob/master/app-admin/flannel/files/flanneld.service)
 
 ## Gitolite
 
