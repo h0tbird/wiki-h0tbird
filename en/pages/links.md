@@ -5,6 +5,8 @@
 
 - [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](http://people.csail.mit.edu/matei/papers/2011/nsdi_mesos.pdf)
 - [MariaDB Galera on a Mesos Cluster with Docker](http://sttts.github.io/galera/mesos/2015/03/04/galera-on-mesos.html)
+- [Mesosphere on a Single CoreOS Instance](Mesosphere on a Single CoreOS Instance)
+- [Kubernetes on Mesos on Google Cloud Platform](http://mesosphere.com/docs/tutorials/kubernetes-mesos-gcp/)
 
 ## Docker
 
