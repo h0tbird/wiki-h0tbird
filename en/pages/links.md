@@ -18,6 +18,7 @@
 ## Gitolite
 
 - [How to setup Gitolite and Cgit on CentOS 6](http://blog.laimbock.com/2013/10/15/how-to-setup-gitolite-and-cgit-on-centos-6/)
+- [Post-receive hook to do make mirroring with gitolite easy](https://github.com/miracle2k/gitolite-simple-mirror)
 
 ## C
 
