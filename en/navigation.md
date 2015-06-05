@@ -1,24 +1,7 @@
-<!--
-  -- Name of your wiki
-  -- Do NOT remove the leading `#` character.
-  -->
-
 # H0tBird
 
-
-<!--
-  -- Default theme
-  -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
-  -->
-
 [gimmick:theme](cyborg)
-
-
-<!--
-  -- Navigation
-  -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
-  -->
-
+[Gpg] (pages/gpg.md)
 [About](pages/about.md)
 [Links](pages/links.md)
 
