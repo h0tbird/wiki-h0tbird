@@ -1,5 +1,8 @@
-# About Page
+# Generate a new key pair
 
+```
+gpg2 --full-gen-key
+```
 
 ## Section 1
 
