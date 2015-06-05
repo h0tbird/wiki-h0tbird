@@ -2,6 +2,8 @@
 
 ## Generate a new key pair
 
+The command --gen-key may be used along with the option --batch for unattended key generation. The parameters are either read from stdin or given as a file on the command line.
+
 ```
 cat > roy.gpg << EOF
 %echo Generating key
