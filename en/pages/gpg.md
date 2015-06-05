@@ -28,7 +28,7 @@ gpg2 --batch --gen-key roy.gpg
 
 ## Generate entropy
 
-This daemon feeds data from a random number generator to the kernel's random number entropy pool, after first checking the data to ensure that it is properly random.
+This feeds data from a random number generator to the kernel's random number entropy pool, after first checking the data to ensure that it is properly random.
 
 ```
 sudo rngd -f -r /dev/urandom
