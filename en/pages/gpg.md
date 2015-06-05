@@ -5,15 +5,16 @@
 ```
 cat > roy.gpg << EOF
 %echo Generating key
-Key-Type: RSA
+Key-Type: RSA 
 Key-Length: 4096
-Subkey-Type: ELG-E
-Subkey-Length: 2048
+Subkey-Type: RSA 
+Subkey-Length: 4096
 Name-Real: Roy Batty
 Name-Comment: Nexus-6
 Name-Email: roy.batty@tyrell.com
 Expire-Date: 0
 Passphrase: Tears in rain
+Preferences: SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 %pubring roy.pub
 %secring roy.sec
 %commit
