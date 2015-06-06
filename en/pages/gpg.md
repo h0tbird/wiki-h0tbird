@@ -53,6 +53,8 @@ gpg2 --list-secret-keys
 
 ## Export the public key
 
+Export keys from those of the given name.
+
 ```
 gpg2 --output ~/RPM-GPG-KEY-tyrell --armor --export roy.batty@tyrell.com
 ```
