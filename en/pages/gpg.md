@@ -2,7 +2,7 @@
 
 ## Generate a new key pair
 
-The parameters are either read from stdin or given as a file on the command line. This will generate a primary RSA key and a sign RSA sub key:
+The parameters are either read from stdin or given as a file on the command line. Here is an example on how to create a primary RSA key and a sign only RSA sub key.
 
 ```
 cat > roy.gpg << EOF
@@ -31,7 +31,7 @@ gpg2 --batch --gen-key roy.gpg
 
 ## Generate entropy
 
-This feeds data from a random number generator to the kernel's random number entropy pool, after first checking the data to ensure that it is properly random.
+This feeds data from a random number generator to the kernel's random number entropy pool, after first checking the data to ensure that it is properly random. Run in parallel in another terminal.
 
 ```
 sudo rngd -f -r /dev/urandom
