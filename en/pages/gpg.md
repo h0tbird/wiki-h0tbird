@@ -23,7 +23,7 @@ Preferences: SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP 
 EOF
 ```
 
-The command --gen-key may be used along with the option --batch for unattended key generation.
+The command `--gen-key` may be used along with the option `--batch` for unattended key generation.
 
 ```
 gpg2 --batch --gen-key roy.txt
