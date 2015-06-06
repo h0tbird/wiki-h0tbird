@@ -2,16 +2,16 @@
 
 ## Generate a new key pair
 
-The command --gen-key may be used along with the option --batch for unattended key generation. The parameters are either read from stdin or given as a file on the command line.
+The parameters are either read from stdin or given as a file on the command line. This will generate a primary RSA key and a sign RSA sub key:
 
 ```
 cat > roy.gpg << EOF
 %echo Generating key
-%pubring roy.pub
-Key-Type: RSA 
+Key-Type: RSA
 Key-Length: 4096
-Subkey-Type: RSA 
+Subkey-Type: RSA
 Subkey-Length: 4096
+Subkey-Usage: sign
 Name-Real: Roy Batty
 Name-Comment: Nexus-6
 Name-Email: roy.batty@tyrell.com
@@ -22,6 +22,8 @@ Preferences: SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP 
 %echo done
 EOF
 ```
+
+The command --gen-key may be used along with the option --batch for unattended key generation.
 
 ```
 gpg2 --batch --gen-key roy.gpg
