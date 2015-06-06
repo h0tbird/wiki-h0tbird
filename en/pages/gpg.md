@@ -31,7 +31,7 @@ gpg2 --batch --gen-key roy.txt
 
 ## Generate entropy
 
-This feeds data from a random number generator to the kernel's random number entropy pool, after first checking the data to ensure that it is properly random. Run in parallel in another terminal.
+This feeds data from a random number generator to the kernel's random number entropy pool, after first checking the data to ensure that it is properly random. Run it in parallel in another terminal.
 
 ```
 sudo rngd -f -r /dev/urandom
