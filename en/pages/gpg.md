@@ -50,3 +50,9 @@ List  all  keys  from  the secret keyrings.
 ```
 gpg2 --list-secret-keys
 ```
+
+## Export the public key
+
+```
+gpg2 --output ~/RPM-GPG-KEY-tyrell --armor --export roy.batty@tyrell.com
+```
