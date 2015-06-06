@@ -5,7 +5,7 @@
 The parameters are either read from stdin or given as a file on the command line. Here is an example on how to create a primary RSA key and a sign only RSA sub key.
 
 ```
-cat > roy.gpg << EOF
+cat > roy.txt << EOF
 %echo Generating key
 Key-Type: RSA
 Key-Length: 4096
@@ -26,7 +26,7 @@ EOF
 The command --gen-key may be used along with the option --batch for unattended key generation.
 
 ```
-gpg2 --batch --gen-key roy.gpg
+gpg2 --batch --gen-key roy.txt
 ```
 
 ## Generate entropy
@@ -37,9 +37,16 @@ This feeds data from a random number generator to the kernel's random number ent
 sudo rngd -f -r /dev/urandom
 ```
 
-## List all keys from the secret keyrings
+## List keys
+
+List all keys from the public keyrings.
 
 ```
-gpg2 --no-default-keyring --secret-keyring ./roy.sec \
---keyring ./roy.pub --list-secret-keys
+gpg2 --list-keys
+```
+
+List  all  keys  from  the secret keyrings.
+
+```
+gpg2 --list-secret-keys
 ```
