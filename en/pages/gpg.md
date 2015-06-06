@@ -1,4 +1,4 @@
-# GPG
+# GnuPG 2.1 and later
 
 ## Generate a new key pair
 
@@ -8,7 +8,6 @@ The command --gen-key may be used along with the option --batch for unattended k
 cat > roy.gpg << EOF
 %echo Generating key
 %pubring roy.pub
-%secring roy.sec
 Key-Type: RSA 
 Key-Length: 4096
 Subkey-Type: RSA 
