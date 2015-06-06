@@ -51,10 +51,16 @@ List  all  keys  from  the secret keyrings.
 gpg2 --list-secret-keys
 ```
 
-## Export the public key
+## Export the keys
 
-Export keys from those of the given name.
+Export public keys from those of the given name.
 
 ```
 gpg2 --output ~/RPM-GPG-KEY-tyrell --armor --export roy.batty@tyrell.com
+```
+
+Same as `--export`, but exports the secret keys instead.
+
+```
+gpg2 --output ~/RPM-GPG-KEY-tyrell.private --export-secret-key --armor roy.batty@tyrell.com 
 ```
